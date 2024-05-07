@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="./images/Group.svg" type="image/x-icon" />
     <title>8-dars</title>
   </head>
   <body>
@@ -17,7 +18,7 @@
             <img src="./images/logo.svg" alt="logo" width="122" height="53" />
           </a>
         </div>
-        <!-- <input type="checkbox" id="check"> -->
+        <input type="checkbox" id="check" class="header-check">
         <div class="nav">
           <ul class="nav-list">
             <li><a href="#">Напрямки</a></li>
@@ -46,9 +47,14 @@
           <img src="/images/phone.svg" alt="tel icon" width="22" height="22" />
           <span>+380 67661 5415</span>
         </div>
-        <label for="check">
-          <!-- <i class="fa-solid fa-bars"></i> -->
-        </label>
+        <div class="close-open">
+          <label for="check">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
       </div>
     </header>
     <div class="background-section">
@@ -65,12 +71,12 @@
           житлових і комерційних приміщень, забезпечимо Вас<br />якісним
           меблевим продуктом власного виробництва.
         </p>
-        <button>Обговорити проект</button>
+        <button class="project-button">Обговорити проект</button>
       </div>
       <div class="foot">
         <div class="page">
-            <img src="./images/arrow-left.svg" alt="arrow" width="20">
-            <img src="./images/arrow-right.svg" alt="arrow" width="20">
+          <img src="./images/arrow-left.svg" alt="arrow" width="20" />
+          <img src="./images/arrow-right.svg" alt="arrow" width="20" />
         </div>
         <div class="nums">
           <span>1</span>
@@ -91,14 +97,62 @@
           <div class="ad">
             <p>02</p>
             <h4>Виробництво меблів</h4>
-            <img src="./images/person-img.png" alt="png" width="354" height="320" />
+            <img
+              src="./images/person-img.png"
+              alt="png"
+              width="354"
+              height="320"
+            />
           </div>
           <div class="ad">
             <p>03</p>
             <h4>Комплексне меблювання</h4>
-            <img src="./images/rectangle.png" alt="png" width="354" height="320" />
+            <img
+              src="./images/rectangle.png"
+              alt="png"
+              width="354"
+              height="320"
+            />
           </div>
         </div>
+      </div>
+    </div>
+    <div class="mebel-section">
+      <div class="mebel-name">
+        <h2>МИ ЗАБЕЗПЕЧЕМО ВАС</h2>
+      </div>
+      <div class="mebel-ads">
+        <span>
+          <img src="./images/room.png" alt="room" width="66" height="66" />
+          <p>Меблями</p>
+        </span>
+        <span>
+          <img
+            src="./images/furniture.png"
+            alt="furniture"
+            width="46"
+            height="69"
+          />
+          <p>Освітленням</p>
+        </span>
+        <span>
+          <img src="./images/burner.png" alt="burner" width="63" height="63" />
+          <p>Побутовою технікою</p>
+        </span>
+      </div>
+      <div class="mebel-ad">
+        <span>
+          <img src="./images/door.png" alt="door" width="68" height="68" />
+          <p>Дверима</p>
+        </span>
+        <span>
+          <img src="./images/floor.png" alt="floor" width="66" height="66" />
+          <p>Стіновими панелями та підлоговим покриттям</p>
+        </span>
+        <span>
+          <img src="./images/pencil.png" alt="pencil" width="66" height="66" />
+          <p>Проектуванням</p>
+        </span>
       </div>
     </div>
   </body>
